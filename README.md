@@ -10,7 +10,7 @@ git submodule init
 git submodule update
 ```
 
-Setup Python Environtment:
+Setup Python Environment:
 ```
 1. Create venv
 2. Run pip install -r requirements.txt (all requirements.txt are same)
