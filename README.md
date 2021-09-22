@@ -21,8 +21,8 @@ Setup python environtment
 Run 'Eye-Beacon: Version 1 People Counter':
 ```
 cd ai
-(change the arguments on run(url) function with your own rtsp url)
-python dashboard.py
+(change the arguments on run(url) function from people_counter.py with your own rtsp url)
+python people_counter.py
 ```
 
 Run 'Eye-Beacon: Version 1 Desktop Dashboard':
