@@ -2,7 +2,7 @@
 
 Complete repository for Eye-Beacon: Version 1
 
-Git Pull, Submodules, Update
+Git Pull, Submodules, Update:
 ```
 git init 
 git pull https://github.com/berodimas/eye-beacon-v1.git
@@ -10,12 +10,13 @@ git submodule init
 git submodule update
 ```
 
-Setup python environtment
+Setup Python Environtment:
 ```
 1. Create venv
 2. Run pip install -r requirements.txt (all requirements.txt are same)
 (optional)
-3. Sometimes you need to configure dlib, look up for dlib installation for your OS
+3. You need to configure/install Redis on your device, look up for Redis installation for your OS
+4. Sometimes you need to configure dlib, look up for dlib installation for your OS
 ```
 
 Run 'Eye-Beacon: Version 1 People Counter':
