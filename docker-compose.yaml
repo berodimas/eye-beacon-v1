@@ -1,0 +1,13 @@
+version: 3.9
+
+services:
+    ####Redis#####
+    redis:
+        container_name: "redis"
+        image: redis:6
+        restart: always
+        volumes:
+                - ./docker/redis/data:/data
+        ports:
+                - "6379:6379"
+        user: root:root

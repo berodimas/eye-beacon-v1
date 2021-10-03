@@ -7,7 +7,7 @@ Git Pull, Submodules, Update:
 git init 
 git pull https://github.com/berodimas/eye-beacon-v1.git
 git submodule init 
-git submodule update
+git submodule update --remote
 ```
 
 Setup Python Environment:
