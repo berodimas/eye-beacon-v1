@@ -7,3 +7,8 @@
 	path = gui
 	url = https://github.com/berodimas/eye-beacon-v1-desktop-dashboard.git
 	branch = feature/redis-version
+
+[submodule "http"]
+	path = http
+	url = https://github.com/berodimas/eye-beacon-v1-http
+	branch = feature/redis-version
