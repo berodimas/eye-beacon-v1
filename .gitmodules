@@ -1,0 +1,13 @@
+[submodule "web-service"]
+	path = web-service
+	url = https://github.com/berodimas/eye-beacon-v1-web-service.git
+    branch = feature/redis-version
+[submodule "gui"]
+	path = gui
+	url = https://github.com/berodimas/eye-beacon-v1-desktop-dashboard.git
+    branch = feature/redis-version
+[submodule "ai"]
+	path = ai
+	url = https://github.com/berodimas/eye-beacon-v1-people-counter.git
+    branch = feature/redis-version
+
