@@ -1,13 +1,47 @@
-version: 3.9
+version: "3.8"
 
 services:
-    ####Redis#####
-    redis:
-        container_name: "redis"
-        image: redis:6
-        restart: always
-        volumes:
-                - ./docker/redis/data:/data
-        ports:
-                - "6379:6379"
-        user: root:root
+        ####Eye-Beacon: Version 1 -- Web Service#####
+        web-service:
+                container_name: "web-service"
+                image: "eye-beacon/web-service:1.0.0"
+                restart: always
+                stdin_open: true
+                tty: true
+                command: -u 0.0.0.0 -p 5001
+                ports:
+                        - "5001:5001"
+                depends_on: 
+                        - redis
+
+        ####Eye-Beacon: Version 1 -- People Counter#####
+        people-counter:
+                container_name: "people-counter"
+                image: "eye-beacon/people-counter:1.0.0"
+                stdin_open: true
+                tty: true
+                command: -i rtsp://192.168.0.107:8554/cam -u http://localhost:5001//eyebeacon/dashboard/people_counter
+                restart: always
+                depends_on: 
+                        - redis
+
+        ####Eye-Beacon: Version 1 -- Desktop Dashboard#####
+        dekstop-dashboard:
+                container_name: "dekstop-dashboard"
+                image: "eye-beacon/desktop-dashboard:1.0.0"
+                environment: 
+                - DISPLAY=172.23.208.1:1.0
+                restart: always
+                depends_on: 
+                        - redis
+
+        ####Redis#####
+        redis:
+                container_name: "redis"
+                image: redis:alpine
+                restart: always
+                volumes:
+                        - ./.docker/redis/data:/data
+                command: redis-server
+                ports:
+                        - "6379:6379"
