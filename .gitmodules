@@ -1,5 +1,5 @@
-[submodule "web-service"]
-	path = web-service
+[submodule "webservice"]
+	path = webservice
 	url = https://github.com/berodimas/eye-beacon-v1-web-service.git
     branch = feature/redis-version
 [submodule "gui"]
