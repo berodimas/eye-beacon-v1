@@ -39,6 +39,7 @@ git submodule update --remote
 ```
 
 **Run Redis Container:**
+> Notes: No need to run the image if you're planning to run the application via [Docker Container](#docker-container)
 ```
 docker pull redis:alpine
 docker run --name redis -p 6379:6379 -v ./docker/redis/data:/data -d redis:alpine redis-server
