@@ -13,6 +13,7 @@ services:
                         - "5001:5001"
                 depends_on: 
                         - redis
+                cpus: 0.25
 
         ####Eye-Beacon: Version 1 -- People Counter#####
         people-counter:
@@ -25,6 +26,7 @@ services:
                 depends_on: 
                         - redis
                         - webservice
+                cpus: 10
 
         ####Eye-Beacon: Version 1 -- Desktop Dashboard#####
         dekstop-dashboard:
@@ -38,6 +40,7 @@ services:
                 restart: always
                 depends_on: 
                         - redis
+                cpus: 1.5
 
         ####Redis#####
         redis:
@@ -49,3 +52,4 @@ services:
                 command: redis-server
                 ports:
                         - "6379:6379"
+                cpus: 0.25
