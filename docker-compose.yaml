@@ -21,7 +21,7 @@ services:
                 image: "eye-beacon/people-counter:1.0.0"
                 stdin_open: true
                 tty: true
-                command: -i rtsp://192.168.0.107:8554/cam -u http://webservice:5001//eyebeacon/dashboard/people_counter -r redis
+                command: -i rtsp://192.168.0.107:8554/cam --prototxt ./ai/mobilenet_ssd/MobileNetSSD_deploy.prototxt --model ./ai/mobilenet_ssd/MobileNetSSD_deploy.caffemodel -u http://192.168.0.107:5001//eyebeacon/dashboard/counter -r localhost
                 restart: always
                 depends_on: 
                         - redis
