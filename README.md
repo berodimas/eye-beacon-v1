@@ -58,7 +58,7 @@ docker run --name redis -p 6379:6379 -v ./docker/redis/data:/data -d redis:alpin
 ```
 **Run 'Eye-Beacon: Version 1 Web Service':**
 ```
-cd gui
+cd webservice
 python web_service.py -u 0.0.0.0 -p 5001 -r [REDIS_HOST_URL]
 ```
 **Run 'Eye-Beacon: Version 1 People Counter':**
