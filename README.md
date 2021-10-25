@@ -3,8 +3,10 @@
 Complete repository for Eye-Beacon: Version 1
 
 <div align="center">
-<img src=https://imgur.com/a/Iw6A3RU>
-<p>Eye-Beacon: Version 1</p>
+<a href="https://www.instagram.com/teamaligness/" title="Team Aligness">
+<img src="https://imgur.com/a/Iw6A3RU" alt="Eye-Beacon: Version 1">
+</a>
+<p><i>Fun</i> <b>Things</b> <i>Happen</i> <b>When</b> <i>Computer Vision</i> <b>Meet</b> <i>Bluetooth Low Energy</i></p>
 </div>
                                        
 ## Table of Contents
@@ -91,6 +93,7 @@ docker-compose up -d
 ---
 ## PM2 Process Manager
 > Visit [PM2 Official Website](https://pm2.keymetrics.io/) for installation details 
+
 **Run Eye-Beacon: Version 1 using PM2 Process Manager:**
 ```
 pm2 start ecosystem.config.js
