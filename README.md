@@ -3,7 +3,7 @@
 Complete repository for Eye-Beacon: Version 1
 
 <div align="center">
-<img src="https://imgur.com/a/Iw6A3RU" alt="Eye-Beacon: Version 1">
+<img src="https://imgur.com/a/Iw6A3RU">
 <p><i>Fun</i> <b>Things</b> <i>Happen</i> <b>When</b> <i>Computer Vision</i> <b>Meet</b> <i>Bluetooth Low Energy</i></p>
 </div>
                                        
