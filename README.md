@@ -3,8 +3,12 @@
 Complete repository for Eye-Beacon: Version 1
 
 <div align="center">
-<img src="https://i.imgur.com/93IrF0a.png">
-<p><i>Fun</i> <b>Things</b> <i>Happen</i> <b>When</b> <i>Computer Vision</i> <b>Meet</b> <i>Bluetooth Low Energy</i></p>
+  <p><b>Complete repository for Eye-Beacon: Version 1</b></p>
+    <br/>
+  <a href="https://www.instagram.com/teamaligness/" title="Team Aligness">
+  <img src="https://i.imgur.com/93IrF0a.png">
+  </a>
+  <p><i>Fun</i> <b>Things</b> <i>Happen</i> <b>When</b> <i>Computer Vision</i> <b>Meet</b> <i>Bluetooth Low Energy</i></p>
 </div>
                                        
 ## Table of Contents
