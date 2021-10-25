@@ -1,10 +1,6 @@
 # EYE-BEACON: VERSION 1
 
-Complete repository for Eye-Beacon: Version 1
-
 <div align="center">
-  <p><b>Complete repository for Eye-Beacon: Version 1</b></p>
-    <br/>
   <a href="https://www.instagram.com/teamaligness/" title="Team Aligness">
   <img src="https://i.imgur.com/93IrF0a.png">
   </a>
