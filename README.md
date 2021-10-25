@@ -2,6 +2,11 @@
 
 Complete repository for Eye-Beacon: Version 1
 
+<div align="center">
+<img src=https://imgur.com/a/Iw6A3RU>
+<p>Eye-Beacon: Version 1</p>
+</div>
+                                       
 ## Table of Contents
 * [Pulling Repository](#pulling-repository)
 * [Arguments Explanation](#arguments-explanation)
@@ -85,7 +90,7 @@ docker-compose up -d
 > Notes: There's some variable you need to configure on your [docker-compose.yml](https://github.com/berodimas/eye-beacon-v1/blob/master/docker-compose.yaml). Change the DISPLAY environtment variable and all arguments from "command"-line based on your environment
 ---
 ## PM2 Process Manager
-> Visit [PM2 Official Website](https://pm2.keymetrics.io/) for installation details
+> Visit [PM2 Official Website](https://pm2.keymetrics.io/) for installation details 
 **Run Eye-Beacon: Version 1 using PM2 Process Manager:**
 ```
 pm2 start ecosystem.config.js
