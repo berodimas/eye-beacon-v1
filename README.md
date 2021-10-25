@@ -3,9 +3,7 @@
 Complete repository for Eye-Beacon: Version 1
 
 <div align="center">
-<a href="https://www.instagram.com/teamaligness/" title="Team Aligness">
 <img src="https://imgur.com/a/Iw6A3RU" alt="Eye-Beacon: Version 1">
-</a>
 <p><i>Fun</i> <b>Things</b> <i>Happen</i> <b>When</b> <i>Computer Vision</i> <b>Meet</b> <i>Bluetooth Low Energy</i></p>
 </div>
                                        
